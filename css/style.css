@@ -3,7 +3,7 @@ html {
   background-color: black;
 }
 @media only screen and (max-width: 600px) {
-  .home-wrapper {
+  .resou {
     margin-top: 30% !important;
     min-height: 100vh;
     padding-bottom: 20px;
