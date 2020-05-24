@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>nCrypt</title>
+
+    <link rel="icon" href="img/favn.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round"
+      rel="stylesheet"
+    />
+
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="body">
+    <header id="home" style="background-color: black;">
+      <nav id="nav" class="navbar nav-transparent">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html">
+                <img class="logo" src="img/n.png" alt="logo" />
+                <img class="logo-alt" src="img/n.png" alt="logo" />
+              </a>
+            </div>
+
+            <div class="nav-collapse">
+              <span></span>
+            </div>
+          </div>
+
+          <ul class="main-nav nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Resources</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="home-wrapper">
+        <div class="container">
+          <div class="home-content">
+            <img src="./img/yo.png" alt="yo" class="sup1" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div
+      id="about"
+      class="section md-padding"
+      style="background-color: #111111; padding-bottom: 30px;"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="section-header">
+              <h2 class="title white-text">
+                n<span style="font-size: 55px; color: red; vertical-align: sub;"
+                  >C</span
+                >rypt's Learning Resources
+              </h2>
+            </div>
+            <p class="white-text xtx">
+              Resources Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis, nemo consequuntur. Quae consectetur placeat, saepe
+              odit ea doloremque magnam, dolores vero ducimus quaerat alias iure
+              eius reiciendis earum numquam.
+            </p>
+            <br /><br />
+            <ul class="resources">
+              <li class="resource"><a href="">Web Development</a></li>
+              <li class="resource"><a href="">Graphic Designing</a></li>
+              <li class="resource">
+                <a href="">App Development</a>
+              </li>
+              <li class="resource">
+                <a href="">Game Development</a>
+              </li>
+              <li class="resource"><a href="">Competitive Programming</a></li>
+              <li class="resource">
+                <a href="">Group Discussion</a>
+              </li>
+              <li class="resource"><a href="">Robotics</a></li>
+              <li class="resource"><a href="">3D Modelling</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              class="img-responsive"
+              src="./img/photo.png"
+              alt=""
+              style="height: 90%; width: 90%;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loader se-pre-con">
+      <div class="logo1">
+        <div class="red"></div>
+        <div class="orange"></div>
+        <div class="red2"></div>
+      </div>
+      <p class="prakhar">Loading</p>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(window).load(function () {
+          setTimeout(function () {
+            $(".loader").fadeOut("slow", function () {});
+          }, 8000);
+        });
+      });
+    </script>
+    <script>
+      $("body").css({
+        "overflow-y": "hidden",
+      });
+      setTimeout(function () {
+        $(".loader").fadeOut("slow", function () {
+          $("body").css({
+            "overflow-y": "auto",
+          });
+        });
+      }, 1000);
+    </script>
+  </body>
+</html>
