@@ -1,7 +1,14 @@
 html {
   scroll-behavior: smooth !important;
+  background-color: black;
 }
-
+@media only screen and (max-width: 600px) {
+  .home-wrapper {
+    margin-top: 30% !important;
+    min-height: 100vh;
+    padding-bottom: 20px;
+  }
+}
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -80,8 +87,14 @@ p {
     width: 120px;
     height: 70px;
   }
-  .resources {
-    margin-left: 80%;
+  li.resource {
+    height: 20px;
+  }
+  .chhota {
+    font-size: 20px !important;
+  }
+  .chhotabada {
+    font-size: 30px !important;
   }
 }
 .butt:hover {
@@ -588,7 +601,7 @@ header {
 }
 
 #home {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #home .home-wrapper {
@@ -2539,7 +2552,7 @@ canvas {
   display: inline-block;
   border-radius: 10px;
   width: 250px;
-  height: auto;
+  height: 100px;
   margin-right: 0%;
   text-align: center;
 }
